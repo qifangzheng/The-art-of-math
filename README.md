@@ -13,5 +13,5 @@ master
         random_nbr2 = random.randint(1,9)
         #Nbr1 = pygame.image.load(numberList[random_nbr1])
         #Nbr2 = pygame.image.load(numberList[random_nbr2])
-        print("falcon" + str(random_nbr1) + str(random_nbr2) + ".jpg")
+        #print("falcon" + str(random_nbr1) + str(random_nbr2) + ".jpg")
         falcon = pygame.image.load("falcon" + str(random_nbr1) + str(random_nbr2) + ".png")
