@@ -1,0 +1,9 @@
+ # collison of bullet and the correct answer
+    if bulletX<=resultX[answerPosition]+100 and bulletX>= resultX[answerPosition]-10 and bulletY<=resultY + 50 and bulletY>=resultY-10:
+        correct = True
+        
+    if correct:       
+        resultX[answerPosition] = -100
+        score += 30
+        newGame = True                          # correct, start a new game
+    
