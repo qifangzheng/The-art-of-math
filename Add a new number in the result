@@ -15,3 +15,12 @@ master
         #Nbr2 = pygame.image.load(numberList[random_nbr2])
         #print("falcon" + str(random_nbr1) + str(random_nbr2) + ".jpg")
         falcon = pygame.image.load("falcon" + str(random_nbr1) + str(random_nbr2) + ".png")
+
+# add a new number 0 in the result
+
+for i in range(0,n-1):
+            randomAnswer = random.randint(0,36)
+        
+            # skip the correct result and repeated random results
+            while randomAnswer == resultIndex or randomAnswer in randomIndex:
+                randomAnswer = random.randint(0,36)
