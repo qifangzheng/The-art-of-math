@@ -24,3 +24,10 @@ for i in range(0,n-1):
             # skip the correct result and repeated random results
             while randomAnswer == resultIndex or randomAnswer in randomIndex:
                 randomAnswer = random.randint(0,36)
+
+# Add a lightSaber
+# Draw a lightsaber
+    if bulletY >=0:
+        screen.blit(lightsaber, (bulletX, bulletY))
+    else:
+        bulletY=-1
