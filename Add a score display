@@ -4,3 +4,11 @@
     myfont = pygame.font.SysFont('Comic Sans MS', 30)
     textsurface = myfont.render('Score: '+ str(score), False, (0, 0, 0))
     screen.blit(textsurface,(0,0))
+    
+# updated version - text displayed at the left bottom
+  #pygame.font.init()  
+                   
+    myfont = pygame.font.SysFont('Comic Sans MS', 30)
+    textsurface = myfont.render('Score: '+ str(score), False, (0, 0, 0))
+    screen.blit(textsurface,(0,700))
+    
