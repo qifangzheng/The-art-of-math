@@ -12,3 +12,9 @@
     textsurface = myfont.render('Score: '+ str(score), False, (0, 0, 0))
     screen.blit(textsurface,(0,700))
     
+# updated version - text in light blue
+#pygame.font.init()  
+                   
+    myfont = pygame.font.SysFont('Comic Sans MS', 30)
+    textsurface = myfont.render('Score: '+ str(score), False, (153, 255, 255))
+    screen.blit(textsurface,(0,700))
