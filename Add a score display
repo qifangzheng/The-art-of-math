@@ -18,3 +18,19 @@
     myfont = pygame.font.SysFont('Comic Sans MS', 30)
     textsurface = myfont.render('Score: '+ str(score), False, (153, 255, 255))
     screen.blit(textsurface,(0,700))
+    
+    
+# Add another line
+    pygame.font.init()  
+                   
+    myfont = pygame.font.SysFont('Comic Sans MS', 30)
+    #print("here 1")
+    textsurface = myfont.render('Score: '+ str(score), False, (153, 255, 255))
+    #print("here 2")
+    screen.blit(textsurface,(0,650))
+    
+    #print("here 3")
+    textsurface2 = myfont.render('Remaining Lives: '+ str(3-gameOver), False, (153, 255, 255))
+    #print("here 2")
+    screen.blit(textsurface2,(0,700))
+    # prepare the numbers
