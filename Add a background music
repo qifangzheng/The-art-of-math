@@ -1,3 +1,3 @@
 # add a background music
-  pygame.mixer.music.load("starwar.mp3")
+  pygame.mixer.music.load("star-wars-theme-song.mp3")
   pygame.mixer.music.play(-1)
