@@ -1,0 +1,10 @@
+# add a prelude 
+def prelude(preludeText):
+    print("play prelude2")
+    screen.blit(space, (0,0))
+    print("play prelude3")
+    # display prelude text
+    pygame.font.init()  
+    myfont = pygame.font.SysFont('Comic Sans MS', 30)
+    textsurface = myfont.render(preludeText, False, (255, 255, 255))
+    screen.blit(textsurface,(300,300))
