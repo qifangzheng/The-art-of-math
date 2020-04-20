@@ -9,3 +9,9 @@ def prelude(preludeText):
     textsurface = myfont.render(preludeText, False, (255, 255, 255))
     screen.blit(textsurface,(300,300))
     pygame.display.update()
+
+
+# pause for 5 seconds
+    print("start pause")
+    pygame.time.wait(5000)
+    print("end pause")
