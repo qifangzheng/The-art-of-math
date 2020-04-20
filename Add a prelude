@@ -8,3 +8,4 @@ def prelude(preludeText):
     myfont = pygame.font.SysFont('Comic Sans MS', 30)
     textsurface = myfont.render(preludeText, False, (255, 255, 255))
     screen.blit(textsurface,(300,300))
+    pygame.display.update()
