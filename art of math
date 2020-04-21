@@ -1,0 +1,14 @@
+# add a script
+def artOfMath():
+    for i in (1,9):
+        for j in (i, 9):
+            r = i*j
+            multiplication = str(i)+"x"+str(j)+"="+str(r)
+            textsurface = myfont.render(multiplication, False, (255, 255, 255))
+            screen.blit(textsurface,(30,300))
+            pygame.display.update()
+            
+            # pause for 5 seconds
+            print("start pause")
+            pygame.time.wait(1000)
+            print("end pause")    
