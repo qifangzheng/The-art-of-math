@@ -7,10 +7,10 @@ def artOfMath():
             screen.blit(space, (0,0))
             pygame.font.init() 
             textsurface = myfont.render(multiplication, False, (255, 255, 255))
-            screen.blit(textsurface,(30,300))
+            screen.blit(textsurface,(500,300))
             pygame.display.update()
             
-            # pause for 5 seconds
+            # pause for 2 seconds
             print("start pause")
-            pygame.time.wait(1000)
+            pygame.time.wait(2000)
             print("end pause")    
