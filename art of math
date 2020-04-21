@@ -4,6 +4,8 @@ def artOfMath():
         for j in (i, 9):
             r = i*j
             multiplication = str(i)+"x"+str(j)+"="+str(r)
+            screen.blit(space, (0,0))
+            pygame.font.init() 
             textsurface = myfont.render(multiplication, False, (255, 255, 255))
             screen.blit(textsurface,(30,300))
             pygame.display.update()
