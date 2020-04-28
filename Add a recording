@@ -1,3 +1,6 @@
 # add a wav recording
-from pydub import AudioSegment
-audio = AudioSegment.from_file('file.m4a') # m4a format is not supported. need to convert to mp3
+
+            pygame.mixer.music.load(str(i)+str(j)+".mp3")
+            pygame.mixer.music.play(-1)
+
+
