@@ -3,4 +3,4 @@
             pygame.mixer.music.load(str(i)+str(j)+".mp3")
             pygame.mixer.music.play(-1)
 
-
+# next step is to record script from 1 1 1 to 9 9 81
