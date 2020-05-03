@@ -17,3 +17,5 @@ for i in range(1,10):
     
 # 5-1 this piece work okay. but the sounds connection is not perfect. 
 pygame.mixer.music.play(1)
+
+pygame.mixer.music.play(0)
