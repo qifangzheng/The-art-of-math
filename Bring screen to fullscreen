@@ -1,1 +1,3 @@
 screen = pygame.display.set_mode((windowX, windowY), flags = pygame.FULLSCREEN)
+
+# bring screen to foreground
