@@ -1,1 +1,13 @@
 # This is to add a continue play button when game ends
+class button():
+     def _init_(self, color, posX, posY, height, width, text):
+          self.color = color
+          self.posX = posX
+          self.posY = posY
+          self.height = height
+          self.width = width
+          self.text = text
+     
+     
+     
+ 
