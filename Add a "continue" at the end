@@ -9,5 +9,6 @@ class button():
           self.text = text
      
      
-     
+ContinueButton = button((255,255,255), 100, 100, 10, 10, "New Game")
+
  
