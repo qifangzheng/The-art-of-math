@@ -9,7 +9,7 @@ class button():
           self.text = text
      
      
-ContinueButton = button((255,255,255), 100, 100, 10, 10, "New Game")
-quitButton = button((255,255,255), 400, 100, 10,10, "Exit")
+ContinueButton = button._init_((255,255,255), 100, 100, 10, 10, "New Game")
+quitButton = button._init_((255,255,255), 400, 100, 10,10, "Exit")
 
  
