@@ -24,3 +24,8 @@ quitButton = button._init_((255,255,255), 400, 100, 10,10, "Exit")
     screen.blit(textsurface2,(825,410))
     pygame.display.update()
     
+# mouse hovers over continue
+   if event.type==pygame.MOUSEBUTTONDOWN:
+     position = pygame.mouse.get_pos()
+     print("x,y =" + "(" + str(position[0]) + ", " + str(position[1]) + ")")
+     
