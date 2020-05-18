@@ -32,4 +32,7 @@ quitButton = button._init_((255,255,255), 400, 100, 10,10, "Exit")
 # if mouse is on the button do something
      if (position[0]>300 and position[0]<300+160 and position[1]>400 and position[1]<400+70): 
           print("continue")
+     elif (position[0]>800 and position[0]<800+130 and position[1]>400 and position[1]<400+70): 
+          print("Exit"):
+          
           
